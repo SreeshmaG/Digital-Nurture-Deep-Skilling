@@ -1,0 +1,34 @@
+Big O Notation
+Big O notation is a mathematical representation used to describe the upper bound of an algorithm’s running time with respect to the input size n. It provides a high-level understanding of the efficiency and scalability of algorithms, especially when dealing with large datasets.
+
+Big O helps in:
+Comparing the performance of different algorithms.
+Predicting how an algorithm will scale as the input size increases.
+Identifying performance bottlenecks and choosing optimal solutions.
+
+Common Time Complexities:
+O(1) – Constant Time: Execution time does not depend on input size.
+O(n) – Linear Time: Execution time grows proportionally with input size.
+O(log n) – Logarithmic Time: Execution time grows slowly even as input size increases rapidly.
+O(n²) – Quadratic Time: Execution time grows significantly with increased input, often found in nested loops.
+
+Best, Average, and Worst-Case Scenarios (for Search Operations)
+Scenario	Linear Search	Binary Search
+Best Case	O(1): Element is found at the first position.	O(1): Element is exactly at the middle index.
+Average Case	O(n): Element is somewhere in the array.	O(log n): Array is halved each iteration.
+Worst Case	O(n): Element is at the end or not present.	O(log n): Element not found after full split.
+
+Linear Search checks each element one-by-one until a match is found or the list ends.
+Binary Search repeatedly divides a sorted list in half to find the target element efficiently.
+
+Which Algorithm is Better?
+
+Linear Search is best suited for:
+Small datasets.
+Unsorted arrays.
+Situations where sorting is not feasible or required.
+
+Binary Search is ideal for:
+Large datasets.
+Arrays that are already sorted or can be sorted.
+Performance-critical applications where faster search time is important.
