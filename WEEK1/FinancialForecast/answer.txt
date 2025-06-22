@@ -1,0 +1,11 @@
+Recursion is a programming technique in which a function calls itself to solve smaller instances of the same problem. It is often used when a problem can be divided into subproblems that are similar to the original.
+
+Simplifies complex problems by breaking them down into smaller, more manageable parts.
+Useful in mathematical computations like compound interest, Fibonacci series, and time series predictions.
+Naturally models repetitive calculations, such as calculating the future value of an investment over multiple periods.
+
+Advantages of Optimization:
+Reduces repeated calculations.
+Improves performance especially when:
+Recursive depth is high.
+The model includes multiple variables or dependencies.
